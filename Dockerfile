@@ -1,4 +1,4 @@
-FROM palmoreck/jupyterlab_r_kernel_binder:1.1.0
+FROM palmoreck/jupyterlab_numerical_binder_test:1.1.0
 ARG NB_USER=jovyan
 ARG NB_UID=1000
 ENV USER ${NB_USER}
